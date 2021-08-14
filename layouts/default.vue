@@ -15,9 +15,9 @@
               .text-xl บทเรียน
             nuxt-link.text-lg.px-4.h-20.flex.items-center.justify-center.border-r.border-primary-400(class="hover:text-orange" to="/" )
               .text-xl สำหรับธุรกิจ
-            nuxt-link.text-lg.px-4.h-20.flex.items-center.justify-center(class="hover:text-orange" to="/" )
-              .text-xl เกี่ยวกับเรา
-  .h-16(class="md:h-32")
+            //- nuxt-link.text-lg.px-4.h-20.flex.items-center.justify-center(class="hover:text-orange" to="/" )
+            //-   .text-xl เกี่ยวกับเรา
+  .h-24
   Nuxt
 </template>
 
