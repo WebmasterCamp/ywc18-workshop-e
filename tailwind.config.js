@@ -10,7 +10,8 @@ const colors = {
     '700': '#252565',
     '800': '#1d1d50',
     '900': '#181842'
-  }
+  },
+  'orange' : '#FF9A00'
 }
 module.exports = {
   future: {
