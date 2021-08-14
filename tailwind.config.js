@@ -11,7 +11,8 @@ const colors = {
     '800': '#1d1d50',
     '900': '#181842'
   },
-  'orange' : '#FF9A00'
+  'orange' : '#FF9A00',
+  'gray-extend' : '#C4C4C4'
 }
 module.exports = {
   future: {

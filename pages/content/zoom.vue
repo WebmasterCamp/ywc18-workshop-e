@@ -17,6 +17,10 @@
                 nuxt-link.h-10.px-6.flex.items-center.text-gray-900.bg-orange.text-2xl.rounded.leading-none(to="/interactive"
                   class="hover:shadow-lg hover:bg-white-400"
                   ) ลองเล่น Zoom ทีละขั้นตอน
+        //- audio(controls='' preload='none' style='width:480px;')
+        //-     source(src='@/static/zoomSound.m4a' type='audio/mp4')
+        //-     p Your browser does not support HTML5 audio.
+
         #CONTENT.mt-5
             .text-4xl ใช้ Zoom บน Desktop
             .text-2xl 1. เปิด Google Chrome และเข้าลิงก์ Zoom.us
@@ -37,4 +41,10 @@
             .px-16: img.mb-4(src="~/assets/zoom-gif/8.gif").p-5
             .text-2xl 9. คลิกที่ “Sign In” เพื่อสมัครสมาชิกก่อนเข้าใช้งาน หรือกด “Join” เพื่อเข้าใช้งานครั้งเดียว โดยไม่ต้องสมัครสมาชิก
             .px-16: img.mb-4(src="~/assets/zoom-gif/9.gif").p-5
+            .text-2xl.text-center.text-gray-900 ติดปัญหาการใช้งาน
+            .flex.items-center.justify-center.mt-8
+                nuxt-link.h-10.px-6.flex.items-center.text-gray-900.bg-gray-extend.text-2xl.rounded.leading-none(to="/interactive"
+                    class="hover:shadow-lg hover:bg-white-400"
+                    ) โทรหาฝ่ายบริการ
+
 </template>
