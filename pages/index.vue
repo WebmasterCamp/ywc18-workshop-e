@@ -8,7 +8,7 @@ div
         Content(to="/content/zoom" title="วิธีใช้ Zoom Meeting สำหรับประชุมงานอย่างมืออาชีพ" describe="คู่มือขั้นตอนการใช้ Zoom ในการประชุม พร้อมคลิปเสียงอธิบายเข้าใจง่าย" )
       div
         .mb-4
-          Content(title="สอนใส่ข้อความในรูปภาพ “สวัสดีวันจันทร์”" imgsrc="/monday.png" describe="สอนใส่ข้อความในรูปภาพ “สวัสดีวันจันทร์”คลิปสอนบรรยายการใส่รูปภาพ" to="/content/image-text")
+          Content(title="สอนใส่ข้อความในรูปภาพ “สวัสดีวันจันทร์”" imgsrc="/monday.png" describe="คลิปสอนบรรยายการใส่ข้อความในรูปภาพ" to="/content/image-text")
         div
           Content(title="Microsoft Teams" imgsrc="/meets.png" describe="คู่มือขั้นตอนการใช้ Microsoft Teams ในการประชุมและทำงานออนไลน์พร้อมคลิปเสียงอธิบายเข้าใจง่าย")
     hr.text-3xl.m-2.my-8
@@ -21,7 +21,7 @@ div
         div
           Content(title="Google Docs" imgsrc="/docs.jpg" describe="คู่มือขั้นตอนการใช้ Google Docs ในการเขียนรายงาน พร้อมคลิปเสียงอธิบายเข้าใจง่าย")
         div
-          Content(title="Google Slide" imgsrc="/slide.jpg" describe="คู่มือขั้นตอนการใช้ Slide ในการทำสไลด์นำเสนอผลงาน พร้อมคลิปเสียงอธิบายเข้าใจง่าย")
+          Content(title="Google Slides" imgsrc="/slide.jpg" describe="คู่มือขั้นตอนการใช้ Google Slides ในการทำสไลด์นำเสนอผลงาน พร้อมคลิปเสียงอธิบายเข้าใจง่าย")
   .max-w-container.mx-auto.w-full
     hr.text-3xl.m-2.my-8
   .bg-gray-100
