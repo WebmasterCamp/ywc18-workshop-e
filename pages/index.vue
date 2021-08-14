@@ -29,7 +29,7 @@ div
       .grid.grid-cols-3.m-2.py-6
         .flex.items-center.justify-center
           //- .w-16.mr-4: img(src="@/assets/zoom.png")
-          .px-4.text-xl.font-semibold.text-center รวมแอปสื่อสารตามเทรนด์ลูกๆ
+          .px-4.text-xl.font-semibold.text-center รวมแอปสื่อสารตามเทรนด์ลูก ๆ
         div
           Content(title="Facebook" imgsrc="/facebook.jpeg" describe="คู่มือสอนใช้และเล่น Facebook เบื้องต้นพร้อมคลิปเสียงประกอบการสอนเข้าใจง่าย ใช้งานเป็นทันทีหลังเรียน")
         div
@@ -44,7 +44,7 @@ div
         p.mt-2 ติดปัญหาการใช้งาน ไม่เข้าใจโปรแกรม<br />โทรติดต่อฝ่ายบริการของเรา คอยดูแลคุณตลอด 24 ชม. ถามได้ทุกคำถาม
         .flex-1
         .flex
-          .w-8.text-lg.text-white: font-awesome-icon(:icon="['fas', 'phone']")
+          .w-8.text-lg.text-white.transform.rotate-90.mt-1: font-awesome-icon(:icon="['fas', 'phone']")
           .flex-1 โทร 080-0000000
 </template>
 

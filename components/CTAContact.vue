@@ -9,7 +9,7 @@
       p.mt-2 ติดปัญหาการใช้งาน ไม่เข้าใจโปรแกรม<br />โทรติดต่อฝ่ายบริการของเรา คอยดูแลคุณตลอด 24 ชม. ถามได้ทุกคำถาม
       .flex-1
       .flex
-        .w-8.text-lg.text-white: font-awesome-icon(:icon="['fas', 'phone']")
+        .w-8.text-lg.text-white.transform.rotate-90.mt-1: font-awesome-icon(:icon="['fas', 'phone']")
         .flex-1 โทร 080-0000000
 </template>
 

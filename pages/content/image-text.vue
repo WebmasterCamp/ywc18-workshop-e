@@ -13,8 +13,8 @@ div
       hr.m-2
       .flex.items-center.justify-center.py-8
         <iframe width="560" height="315" src="https://www.youtube.com/embed/iOgumwaoLqM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  .w-full.max-w-container.mx-auto.flex.items-center.justify-center
-    Disqus
+  //- .w-full.max-w-container.mx-auto.flex.items-center.justify-center
+  //-   Disqus
   .w-full.max-w-container.mx-auto.flex.items-center.justify-center
     CTAContact
 </template>
