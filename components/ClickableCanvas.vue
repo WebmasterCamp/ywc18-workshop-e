@@ -1,7 +1,7 @@
 <template lang="pug">
 .clickable-canvas.relative(:class="{'is-hinting': isHinting}")
-  div.relative.bg-black
-    img.absolute.inset-0.transition-all.duration-200(@click="clickCanvas" :src="img")
+  div.relative.bg-gray-100
+    img.relative.inset-0.transition-all.duration-200(@click="clickCanvas" :src="img")
     button.absolute.transition-all.duration-200.border-2.border-transparent(
       v-for="pt in points" :style="generateButtonStyle(pt)" @click="onClickButton"
     )
@@ -23,29 +23,22 @@ export default Vue.extend({
       this.$emit('correct')
     },
     generateButtonStyle (pt) {
-      return `top: ${pt.y - (pt.size / 2)}px; left: ${pt.x - (pt.size / 2)}px; width: ${pt.size}px; height: ${pt.size}px`
+      return `top: calc(${pt.y}% - ${(pt.size / 2)}px); left: calc(${pt.x}% - ${(pt.size / 2)}px); width: ${pt.size}px; height: ${pt.size}px`
     },
     clickCanvas (e) {
       const rect = e.target.getBoundingClientRect()
-      const x = e.clientX - rect.left
-      const y = e.clientY - rect.top
-      console.log('x: ' + x + ' y: ' + y)
+      const nW = e.target.naturalWidth
+      const nH = e.target.naturalHeight
+      const ratio = nW / rect.width
+      const x = (e.clientX - rect.left) * ratio
+      const y = (e.clientY - rect.top) * ratio
+      const xPer = Math.round(x / nW * 100 * 100) / 100
+      const yPer = Math.round(y / nH * 100 * 100) / 100
+      console.log('x%: ' + (xPer) + '% y%:' + (yPer))
       this.isHinting = true
       setTimeout(() => {
         this.isHinting = false
       }, 800)
-      // const rect = e.target.getBoundingClientRect()
-      // const x = e.clientX - rect.left
-      // const y = e.clientY - rect.top
-      // console.log('x: ' + x + ' y: ' + y)
-      // this.points.forEach((pt) => {
-      //   if (x >= pt.x - (pt.size / 2) && x <= pt.x + (pt.size / 2)) {
-      //     if (y >= pt.y - (pt.size / 2) && x <= pt.y + (pt.size / 2)) {
-      //       console.log('correct point')
-      //       console.log(pt)
-      //     }
-      //   }
-      // })
     }
   }
 })

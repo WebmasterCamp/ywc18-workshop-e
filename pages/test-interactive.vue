@@ -24,7 +24,7 @@ export default Vue.extend({
         image: '/ia/test-02.png',
         description: '',
         points: [
-          { x: 120, y: 150, size: 36 }
+          { x: 50, y: 40, size: 36 }
         ]
       }
     ]
