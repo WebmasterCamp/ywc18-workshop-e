@@ -9,8 +9,10 @@
   //-       Content
   //-     #popular
   //-       .text-3xl หมวดหมู่ยอดนิยม
-  .container.max-w-container.mx-auto.w-full.pb-12
-    #search
+  .container.max-w-container.mx-auto.w-full.pb-12.px-4
+    //- CTAContact
+    #search.mb-12
+      SearchBar
     .grid.grid-cols-3.gap-4
       .col-span-2
         Content
@@ -35,3 +37,16 @@
         img.mb-4(src="~/assets/test.png")
         Content
 </template>
+
+<script>
+import Vue from 'vue'
+import SearchBar from '~/components/SearchBar.vue'
+import CTAContact from '~/components/CTAContact.vue'
+
+export default Vue.extend({
+  components: {
+    SearchBar,
+    CTAContact
+  }
+})
+</script>

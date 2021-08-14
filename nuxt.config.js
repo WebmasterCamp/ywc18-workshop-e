@@ -46,7 +46,7 @@ export default {
 
   fontawesome: { // Use names from https://fontawesome.com/v4.7/icons/
     icons: {
-      solid: ['faSearch']
+      solid: ['faSearch', 'faPhone', 'faTimes']
     }
   }
 }
