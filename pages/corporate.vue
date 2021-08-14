@@ -46,6 +46,16 @@ div
                   ) ทดลองใช้งาน
 </template>
 
+<script>
+import Vue from 'vue'
+
+export default Vue.extend({
+  head: {
+    title: 'Keytech สำหรับธุรกิจ'
+  }
+})
+</script>
+
 <style>
 .header-for-corporate {
   background-image: url('/for-corporate.jpg');

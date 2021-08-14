@@ -77,6 +77,9 @@ export default Vue.extend({
     SearchBar,
     CTAContact,
     Content
+  },
+  head: {
+    title: 'วิธีใช้ Zoom Meeting สำหรับประชุมงานอย่างมืออาชีพ'
   }
 })
 </script>

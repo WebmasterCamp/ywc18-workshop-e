@@ -23,6 +23,9 @@ export default Vue.extend({
     onDone () {
       this.$router.push('/interactive-end')
     }
+  },
+  head: {
+    title: 'ลองเล่น Zoom ทีละขั้นตอน'
   }
 })
 </script>
