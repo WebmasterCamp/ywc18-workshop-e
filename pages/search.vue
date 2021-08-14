@@ -1,6 +1,11 @@
 <template lang="pug">
 .search-view
-  p {{searchResults}}
+  .max-w-container.w-full.px-4.mx-auto
+    .border-b.py-4.mb-8
+      p ผลการค้นหาคำว่า {{$route.query.q}} พบ {{searchResult.length}} บทความ
+    template(v-if="searchResult.length > 0")
+      .w-64
+        Content(isSmall to="/content/zoom" title="ใช้ Zoom ยังไง")
   //- filtered list ของการค้นหา
 </template>
 
@@ -11,7 +16,7 @@ import contentOutline from '~/assets/content-outline.js'
 
 export default Vue.extend({
   computed: {
-    searchResults () {
+    searchResult () {
       const term = this.$route.query.q
 
       const options = {
