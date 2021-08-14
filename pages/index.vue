@@ -52,11 +52,13 @@ div
 import Vue from 'vue'
 import SearchBar from '~/components/SearchBar.vue'
 import CTAContact from '~/components/CTAContact.vue'
+import Content from '~/components/Content.vue'
 
 export default Vue.extend({
   components: {
     SearchBar,
-    CTAContact
+    CTAContact,
+    Content
   }
 })
 </script>
