@@ -1,8 +1,8 @@
 <template lang="pug">
-.clickable-canvas.relative
-  div.relative
-    img.absolute.inset-0(@click="clickCanvas" :src="img")
-    button.absolute(
+.clickable-canvas.relative(:class="{'is-hinting': isHinting}")
+  div.relative.bg-black
+    img.absolute.inset-0.transition-all.duration-200(@click="clickCanvas" :src="img")
+    button.absolute.transition-all.duration-200.border-2.border-transparent(
       v-for="pt in points" :style="generateButtonStyle(pt)" @click="onClickButton"
     )
 </template>
@@ -15,6 +15,9 @@ export default Vue.extend({
     img: { type: String },
     points: { type: Array }
   },
+  data: () => ({
+    isHinting: false
+  }),
   methods: {
     onClickButton () {
       this.$emit('correct')
@@ -27,6 +30,10 @@ export default Vue.extend({
       const x = e.clientX - rect.left
       const y = e.clientY - rect.top
       console.log('x: ' + x + ' y: ' + y)
+      this.isHinting = true
+      setTimeout(() => {
+        this.isHinting = false
+      }, 800)
       // const rect = e.target.getBoundingClientRect()
       // const x = e.clientX - rect.left
       // const y = e.clientY - rect.top
@@ -45,5 +52,14 @@ export default Vue.extend({
 </script>
 
 <style lang="scss">
-// .clickable-canvas {}
+.clickable-canvas {
+  &.is-hinting {
+    img {
+      @apply opacity-75;
+    }
+    button {
+      @apply bg-white bg-opacity-25 border-red-500;
+    }
+  }
+}
 </style>
