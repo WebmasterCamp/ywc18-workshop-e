@@ -11,9 +11,9 @@
   //-       .text-3xl หมวดหมู่ยอดนิยม
   .container.max-w-container.mx-auto.w-full.pb-12.px-4
     //- CTAContact
-    #search.mb-12
+    #search.mb-8
       SearchBar
-    .grid.grid-cols-3.gap-4
+    .grid.grid-cols-3
       .col-span-2
         Content
       div
@@ -22,14 +22,14 @@
         div
           Content
     hr.text-3xl.m-2.my-8
-    .grid.grid-cols-3.m-2.gap-4
+    .grid.grid-cols-3.m-2
       .text-3xl Google
       div
         Content
       div
         Content
     hr.text-3xl.m-2.my-8
-    .grid.grid-cols-3.m-2.gap-4
+    .grid.grid-cols-3.m-2
       .text-3xl Zoom
       div
         Content
