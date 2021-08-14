@@ -1,5 +1,5 @@
 <template lang="pug">
-.test-interactive
+.w-full.max-w-container.mx-auto
   InteractiveApp(:dataset="interactiveDataset" @done="onDone")
 </template>
 

@@ -25,35 +25,35 @@ export default {
       image: '/ia-zoom/04.jpg',
       description: '',
       points: [
-        { x: 4.08, y: 96.05, size: 64 }
+        { x: 8.08, y: 96.05, size: 64 }
       ]
     },
     {
       image: '/ia-zoom/05.jpg',
       description: '',
       points: [
-        { x: 4.08, y: 96.05, size: 64 }
+        { x: 8.08, y: 96.05, size: 64 }
       ]
     },
     {
       image: '/ia-zoom/06.jpg',
       description: '',
       points: [
-        { x: 18.36, y: 95.81, size: 64 }
+        { x: 17.88, y: 95.12, size: 64 }
       ]
     },
     {
       image: '/ia-zoom/07.jpg',
       description: '',
       points: [
-        { x: 18.36, y: 95.81, size: 64 }
+        { x: 17.88, y: 95.12, size: 64 }
       ]
     },
     {
       image: '/ia-zoom/08.jpg',
       description: '',
       points: [
-        { x: 54.22, y: 95.47, size: 64 }
+        { x: 53.95, y: 95.23, size: 64 }
       ]
     },
     {

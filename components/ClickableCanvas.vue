@@ -1,6 +1,6 @@
 <template lang="pug">
-.clickable-canvas.relative(:class="{'is-hinting': isHinting}")
-  div.relative.bg-gray-100
+.clickable-canvas.relative.text-center(style="transform: scale(0.75)" :class="{'is-hinting': isHinting}")
+  div.relative.bg-gray-100.inline-block
     img.relative.inset-0.transition-all.duration-200(@click="clickCanvas" :src="img")
     button.absolute.transition-all.duration-200.border-2.border-transparent(
       v-for="pt in points" :style="generateButtonStyle(pt)" @click="onClickButton"
