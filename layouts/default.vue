@@ -7,7 +7,9 @@
           .flex.items-center.flex-wrap.-mx-2
             .h-10.flex.items-center.px-2.relative.cursor-default
               nuxt-link.block.text-lg(class="hover:opacity-75" to="/" )
-                .text-3xl Key Tech
+                .flex
+                  .text-3xl Key Tech
+                  logo
           .flex-1
           li.h-10.flex.items-center
             nuxt-link.block.text-lg.mx-4(class="hover:opacity-75" to="/lesson/work" )
