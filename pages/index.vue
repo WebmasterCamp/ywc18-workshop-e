@@ -5,12 +5,12 @@ div
       SearchBar
     .grid.grid-cols-3
       .col-span-2
-        Content(to="/content/zoom" title="ใช้ Zoom ยังไง" )
+        Content(to="/content/zoom" title="วิธีใช้ Zoom Meeting สำหรับประชุมงานอย่างมืออาชีพ" )
       div
         .mb-4
-          Content(title="ทำธุรกรรมออนไลน์ยังไง")
+          Content(to="/content/image-text" title="สอนใส่ข้อความในรูปภาพ \“สวัสดีวันจันทร์\”")
         div
-          Content(title="ทำข้อความสวัสดีวันจันทร์")
+          Content(title="ทำธุรกรรมออนไลน์ยังไง")
     hr.text-3xl.m-2.my-8
   .bg-gray-100
     .max-w-container.mx-auto.w-full
