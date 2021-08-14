@@ -1,6 +1,8 @@
 <template lang="pug">
 .content-view
-  p {{content}}
+  <font-awesome-icon :icon="['fas', 'camera']" />
+  .w-full.max-w-container.mx-auto
+    p {{content}}
 </template>
 
 <script>

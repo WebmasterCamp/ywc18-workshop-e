@@ -31,7 +31,9 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    // https://www.npmjs.com/package/@nuxtjs/fontawesome
+    '@nuxtjs/fontawesome'
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -40,5 +42,11 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+  },
+
+  fontawesome: { // Use names from https://fontawesome.com/v4.7/icons/
+    icons: {
+      solid: ['faCamera']
+    }
   }
 }
