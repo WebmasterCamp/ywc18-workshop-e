@@ -30,6 +30,9 @@ export default Vue.extend({
     SearchBar,
     CTAContact,
     Content
+  },
+  head: {
+    title: 'สอนใส่ข้อความในรูปภาพ “สวัสดีวันจันทร์”'
   }
 })
 </script>
