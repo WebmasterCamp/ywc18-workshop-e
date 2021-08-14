@@ -36,14 +36,14 @@ export default {
       ]
     },
     {
-      image: '/ia-zoom/06.jpg',
+      image: '/ia-zoom/07.jpg',
       description: 'สัญลักษณ์ปิดวิดีโออยู่ กดเพื่อเปิดวิดีโอ',
       points: [
         { x: 17.88, y: 95.12, size: 64 }
       ]
     },
     {
-      image: '/ia-zoom/07.jpg',
+      image: '/ia-zoom/06.jpg',
       description: 'สัญลักษณ์เปิดวิดีโออยู่ กดเพื่อปิดวิดีโอ',
       points: [
         { x: 17.88, y: 95.12, size: 64 }
