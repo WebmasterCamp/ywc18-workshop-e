@@ -5,7 +5,7 @@ div
       SearchBar
     .grid.grid-cols-3
       .col-span-2
-        Content(to="/content/zoom" title="ใช้ Zoom ยังไง" describe="คู่มือขั้นตอนการใช้ Zoom ในการประชุม พร้อมคลิปเสียงอธิบายเข้าใจง่าย" )
+        Content(to="/content/zoom" title="วิธีใช้ Zoom Meeting สำหรับประชุมงานอย่างมืออาชีพ" describe="คู่มือขั้นตอนการใช้ Zoom ในการประชุม พร้อมคลิปเสียงอธิบายเข้าใจง่าย" )
       div
         .mb-4
           Content(title="สอนทำสวัสดีวันจันทร์" imgsrc="/monday.png" describe="สอนใส่ข้อความในรูปภาพ “สวัสดีวันจันทร์”คลิปสอนบรรยายการใส่รูปภาพ" to="/content/image-text")
