@@ -1,6 +1,6 @@
 export default {
   test: {
-    title: 'TEST TITLE',
+    title: 'วิธีใช้ Zoom Meeting สำหรับประชุมงานอย่างมืออาชีพ',
     steps: [
       { description: 'asdsad' }
     ]
