@@ -1,16 +1,16 @@
 <template lang="pug">
 div
   .container.max-w-container.mx-auto.w-full.pb-12.px-4
-    #search.mb-8
+    #search.mb-8.mt-6
       SearchBar
     .grid.grid-cols-3
       .col-span-2
         Content(to="/content/zoom" title="ใช้ Zoom ยังไง" )
       div
         .mb-4
-          Content
+          Content(title="ทำธุรกรรมออนไลน์ยังไง")
         div
-          Content
+          Content(title="ทำข้อความสวัสดีวันจันทร์")
     hr.text-3xl.m-2.my-8
   .bg-gray-100
     .max-w-container.mx-auto.w-full
@@ -19,9 +19,9 @@ div
           .w-16.mr-4: img(src="@/assets/google.png")
           .text-3xl.text-center Google
         div
-          Content
+          Content(title="ใช้ Google ยังไง")
         div
-          Content
+          Content(title="ใช้ Google ยังไง")
   .max-w-container.mx-auto.w-full
     hr.text-3xl.m-2.my-8
   .bg-gray-100
@@ -31,9 +31,9 @@ div
           .w-16.mr-4: img(src="@/assets/zoom.png")
           .text-3xl.text-center Zoom
         div
-          Content
+          Content(title="ใช้ Zoom ยังไง")
         div
-          Content
+          Content(title="ใช้ Zoom ยังไง")
   .relative.inset-0.w-full(style="background: #080975;")
     .relative.inset-0.flex
       .flex-1
