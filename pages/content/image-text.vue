@@ -10,11 +10,12 @@ div
             //- <script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
           //- .grid.grid-cols-2.gap-4
           //-     p ส่งต่อให้เพื่อนของคุณ
-      div
+      hr.m-2
+      .flex.items-center.justify-center.py-8
         <iframe width="560" height="315" src="https://www.youtube.com/embed/iOgumwaoLqM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  .max-w-container.mx-auto.flex.items-center.justify-center
+  .w-full.max-w-container.mx-auto.flex.items-center.justify-center
     Disqus
-  .max-w-container.mx-auto.flex.items-center.justify-center
+  .w-full.max-w-container.mx-auto.flex.items-center.justify-center
     CTAContact
 </template>
 
