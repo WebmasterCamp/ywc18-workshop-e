@@ -2,18 +2,18 @@
 .default-layout
   nav.fixed.top-0.right-0.left-0.z-20.hidden(class="sm:block")
     .bg-primary-700
-      .h-20.max-w-container.px-4.mx-auto.flex.items-center.text-white
+      .h-12.max-w-container.px-4.mx-auto.flex.items-center.text-white
         .flex.items-center.h-full.w-full.text.text-center.leading-tight
           .flex.items-center.flex-wrap.-mx-2
-            .h-10.flex.items-center.px-2.relative.cursor-default
+            .h-12.flex.items-center.px-2.relative.cursor-default
               nuxt-link.block.text-lg(class="hover:opacity-75" to="/" )
                 .flex
-                  .h-12: Logo
+                  Logo.h-8
           .flex-1
-          li.h-20.flex.items-center
-            nuxt-link.text-lg.px-4.h-20.flex.items-center.justify-center.border-r.border-primary-400(class="hover:text-orange" to="/" )
+          li.h-12.flex.items-center
+            nuxt-link.text-lg.px-4.h-12.flex.items-center.justify-center.border-r.border-primary-400(class="hover:text-orange" to="/" )
               .text-xl บทเรียน
-            nuxt-link.text-lg.px-4.h-20.flex.items-center.justify-center.border-r.border-primary-400(class="hover:text-orange" to="/" )
+            nuxt-link.text-lg.px-4.h-12.flex.items-center.justify-center.border-r.border-primary-400(class="hover:text-orange" to="/" )
               .text-xl สำหรับธุรกิจ
             //- nuxt-link.text-lg.px-4.h-20.flex.items-center.justify-center(class="hover:text-orange" to="/" )
             //-   .text-xl เกี่ยวกับเรา
