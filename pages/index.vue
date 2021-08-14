@@ -5,7 +5,7 @@ div
       SearchBar
     .grid.grid-cols-3
       .col-span-2
-        Content
+        Content(to="/content/zoom" title="ใช้ Zoom ยังไง" )
       div
         .mb-4
           Content
