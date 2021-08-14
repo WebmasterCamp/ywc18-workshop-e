@@ -8,9 +8,9 @@ div
         Content(to="/content/zoom" title="ใช้ Zoom ยังไง" describe="คู่มือขั้นตอนการใช้ Zoom ในการประชุม พร้อมคลิปเสียงอธิบายเข้าใจง่าย" )
       div
         .mb-4
-          Content(title="Microsoft Teams" imgsrc="/meets.png" describe="คู่มือขั้นตอนการใช้ Microsoft Teams ในการประชุมและทำงานออนไลน์พร้อมคลิปเสียงอธิบายเข้าใจง่าย")
+          Content(title="สอนทำสวัสดีวันจันทร์" imgsrc="/monday.png" describe="สอนใส่ข้อความในรูปภาพ “สวัสดีวันจันทร์”คลิปสอนบรรยายการใส่รูปภาพ" to="/content/image-text")
         div
-          Content(title="สอนทำสวัสดีวันจันทร์" imgsrc="/monday.png" describe="คู่มือขั้นตอนการใช้ Skype ในการประชุมงานและสื่อสารกันอย่างเห็นหน้าพร้อมคลิปเสียงอธิบายเข้าใจง่าย" to="/content/image-text")
+          Content(title="Microsoft Teams" imgsrc="/meets.png" describe="คู่มือขั้นตอนการใช้ Microsoft Teams ในการประชุมและทำงานออนไลน์พร้อมคลิปเสียงอธิบายเข้าใจง่าย")
     hr.text-3xl.m-2.my-8
   .bg-gray-100
     .max-w-container.mx-auto.w-full
