@@ -7,9 +7,13 @@
             //-     p ส่งต่อให้เพื่อนของคุณ
         hr.m-2
         #WHATIS.mt-5
-            .container.max-w-container.mx-auto.w-full.pb-12.p-5.bg-red-700
+            .container.max-w-container.mx-auto.w-full.pb-12.p-5.bg-gray-200
                 .text-4xl Zoom คืออะไร ?
                 .text-2xl โปรแกรมซูม (Zoom Meeting) เป็นเครื่องมือพูดคุยผ่านวิดีโอ ส่งภาพและเสียง ให้แก่ผู้ร่วมประชุม ประกอบด้วย ฟังก์ชันที่ใช้งานง่าย เลือกเปลี่ยนภาพพื้นหลัง เพื่อพูดคุยให้เข้ากับโอกาสได้ตามความเหมาะสม รวมถึงใช้เรียนออนไลน์ได้ไม่สะดุด วิธีการเข้าใช้งาน Zoom Meeting ทำได้ง่าย ทั้งจากในมือถือ และคอมพิวเตอร์
+            .flex.items-center.justify-center.mt-2
+                next-link.h-10.px-6.flex.items-center.text-gray-900.bg-gray-500.text-xl.rounded.leading-none(to="/"
+                    class="hover:shadow-lg hover:bg-white-400"
+                    ) ลองเล่น Zoom ทีละขั้นตอน
         #CONTENT.mt-5
             .text-4xl ใช้ Zoom บน Desktop
             .text-2xl 1. เปิด Google Chrome และเข้าลิงก์ Zoom.us
