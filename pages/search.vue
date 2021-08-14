@@ -15,6 +15,7 @@
 import Vue from 'vue'
 import Fuse from 'fuse.js'
 import contentOutline from '~/assets/content-outline.js'
+import Content from '~/components/Content.vue'
 
 export default Vue.extend({
   computed: {
@@ -28,6 +29,9 @@ export default Vue.extend({
       const res = fuse.search(term)
       return res.map(r => r.item) // array ของ บทความที่เกี่ยวข้อง
     }
+  },
+  components: {
+    Content
   }
 })
 </script>
