@@ -12,23 +12,28 @@ div
         div
           Content
     hr.text-3xl.m-2.my-8
-    .grid.grid-cols-3.m-2.bg-gray-200
-      .flex.items-center.justify-center
-        img(src="@/assets/google.png")
-        .text-3xl.text-center Google
-      div
-        Content
-      div
-        Content
+  .bg-gray-100
+    .max-w-container.mx-auto.w-full
+      .grid.grid-cols-3.m-2.py-6
+        .flex.items-center.justify-center
+          .w-16.mr-4: img(src="@/assets/google.png")
+          .text-3xl.text-center Google
+        div
+          Content
+        div
+          Content
+  .max-w-container.mx-auto.w-full
     hr.text-3xl.m-2.my-8
-    .grid.grid-cols-3.m-2.bg-gray-200
-      .flex.items-center.justify-center
-        img(src="@/assets/zoom.png")
-        .text-3xl.text-center Zoom
-      div
-        Content
-      div
-        Content
+  .bg-gray-100
+    .max-w-container.mx-auto.w-full
+      .grid.grid-cols-3.m-2.py-6
+        .flex.items-center.justify-center
+          .w-16.mr-4: img(src="@/assets/zoom.png")
+          .text-3xl.text-center Zoom
+        div
+          Content
+        div
+          Content
   .relative.inset-0.w-full(style="background: #080975;")
     .relative.inset-0.flex
       .flex-1
