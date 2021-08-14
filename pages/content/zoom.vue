@@ -3,6 +3,9 @@
         #TITLE.mt-5
             .text-4xl วิธีใช้ Zoom Meeting สำหรับประชุมงานอย่างมืออาชีพ
             p เผยแพร่ 14 ส.ค. 2564
+            div.mt-4
+              <div class="line-it-button" style="display: none;" data-lang="en" data-type="share-a" data-ver="3" :data-url="$route.fullpath" data-color="default" data-size="small" data-count="true"></div>
+              <script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
             //- .grid.grid-cols-2.gap-4
             //-     p ส่งต่อให้เพื่อนของคุณ
         hr.m-2
