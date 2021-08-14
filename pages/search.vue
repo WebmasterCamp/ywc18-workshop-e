@@ -5,7 +5,7 @@
       p ผลการค้นหาคำว่า {{$route.query.q}} พบ {{searchResult.length}} บทความ
     template(v-if="searchResult.length > 0")
       .w-64
-        Content(isSmall to="/content/zoom" title="วิธีใช้ Zoom Meeting สำหรับประชุมงานอย่างมืออาชีพ")
+        Content(isSmall v-for="sr in searchResult" :to="sr.to" :title="sr.searchKeywords" :imgsrc="sr.imageSrc")
     template(v-else)
       p ไม่พบการค้นหา
   //- filtered list ของการค้นหา
