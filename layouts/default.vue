@@ -1,62 +1,26 @@
-<template>
-  <div>
-    <Nuxt />
-  </div>
+<template lang="pug">
+.default-layout.font-sans
+  nav.fixed.top-0.right-0.left-0.z-20.hidden(class="sm:block")
+    .bg-red-700.w-screen
+      .h-20.max-w-container.px-4.mx-auto.flex.items-center.text-white
+        .flex.items-center.h-full.w-full.text.text-center.leading-tight
+          .flex.items-center.flex-wrap.-mx-2
+            .h-10.flex.items-center.px-2.relative.cursor-default
+              nuxt-link.block.text-lg(class="hover:opacity-75" to="/" )
+                .text-3xl Key Tech
+          .flex-1
+          li.h-10.flex.items-center
+            a.h-10.px-6.flex.items-center.text-red-500.bg-yellow-500.rounded-full.leading-none(
+              target="_blank"
+              href="#"
+              class="hover:shadow-lg hover:bg-yellow-400"
+            ) Test
+  .h-16(class="md:h-32")
+  Nuxt
 </template>
-
 <style>
-html {
-  font-family:
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Maitree:wght@300&display=swap');
+  *{
+    font-family: 'Maitree', serif;
+  }
 </style>
