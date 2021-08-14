@@ -1,5 +1,5 @@
 <template lang="pug">
-.interactive-app.bg-gray-200
+.interactive-app.bg-gray-100.p-12
   template(v-for="(step, i) in dataset")
     template(v-if="i === currentStep")
       .text-center.text-xl.font-semibold.mt-4.mb-4 {{ step.description }}
