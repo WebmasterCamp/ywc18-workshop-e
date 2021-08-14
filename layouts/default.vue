@@ -13,7 +13,7 @@
           li.h-12.flex.items-center
             nuxt-link.text-lg.px-4.h-12.flex.items-center.justify-center.border-r.border-primary-400(class="hover:text-orange" to="/" )
               .text-xl บทเรียน
-            nuxt-link.text-lg.px-4.h-12.flex.items-center.justify-center.border-r.border-primary-400(class="hover:text-orange" to="/corporate" )
+            nuxt-link.text-lg.px-4.h-12.flex.items-center.justify-center.border-primary-400(class="hover:text-orange" to="/corporate" )
               .text-xl สำหรับธุรกิจ
             //- nuxt-link.text-lg.px-4.h-20.flex.items-center.justify-center(class="hover:text-orange" to="/" )
             //-   .text-xl เกี่ยวกับเรา
