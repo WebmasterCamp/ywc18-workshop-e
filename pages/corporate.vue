@@ -3,6 +3,9 @@ div
   .header-for-corporate.bg-cover.h-64
     .container.max-w-container.mx-auto.flex.items-center.h-full
       .text-4xl KeyTech กุญแจสู่ประตูเทคโนโลยี
+  .w-full(style="background: #ECEBF9;")
+    .max-h-64.w-full.max-w-container.mx-auto.mb-16
+      img(src="~/assets/b2b.jpg")
   .container.max-w-container.mx-auto.w-full.pb-12.px-4.mt-5
     .mt-8
         .grid.grid-cols-3
