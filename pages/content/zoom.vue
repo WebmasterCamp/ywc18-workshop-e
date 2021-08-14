@@ -21,7 +21,7 @@ div
                   class="hover:shadow-lg hover:bg-white-400"
                   ) ลองเล่น Zoom ทีละขั้นตอน
 
-        .flex.items-center.justify-center.my-12.sticky.bg-gray-100.py-6(style="top: 5rem;")
+        .flex.items-center.justify-center.my-12.sticky.bg-gray-100.py-4(style="top: 3rem;")
           .text-lg.mr-12 ฟังวิธีใช้งาน
           div(style="width: 480px;")
             audio(controls='' preload='none' style='width:480px;')
@@ -52,7 +52,8 @@ div
                 nuxt-link.py-4.px-8.flex.items-center.text-gray-900.bg-gray-300.text-lg.rounded.leading-none(to="#"
                     class="hover:shadow-lg hover:bg-gray-200"
                     ) โทรหาฝ่ายบริการ
-    CTAContact
+    .max-w-container.mx-auto.flex.items-center.justify-center
+      CTAContact
 </template>
 
 <script>
