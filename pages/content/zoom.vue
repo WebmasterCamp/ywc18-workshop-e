@@ -61,6 +61,8 @@ div
                     class="hover:shadow-lg hover:bg-gray-200"
                     ) โทรหาฝ่ายบริการ
     .max-w-container.mx-auto.flex.items-center.justify-center
+      Disqus
+    .max-w-container.mx-auto.flex.items-center.justify-center
       CTAContact
 </template>
 

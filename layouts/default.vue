@@ -17,7 +17,7 @@
               .text-xl สำหรับธุรกิจ
             //- nuxt-link.text-lg.px-4.h-20.flex.items-center.justify-center(class="hover:text-orange" to="/" )
             //-   .text-xl เกี่ยวกับเรา
-  .h-24
+  .h-12
   Nuxt
 </template>
 
