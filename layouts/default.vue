@@ -18,9 +18,11 @@
   .h-16(class="md:h-32")
   Nuxt
 </template>
+
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Maitree:wght@300&display=swap');
-  *{
-    font-family: 'Maitree', serif;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Maitree:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Maitree', serif;
+}
 </style>
