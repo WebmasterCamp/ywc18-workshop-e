@@ -1,5 +1,5 @@
 <template lang="pug">
-.cta-contact.fixed(style="bottom: 12px;" v-if="!isClose")
+.cta-contact.fixed(style="bottom: 0px;" v-if="!isClose")
   img(src="~/assets/contact-cta.jpg")
   div.absolute.inset-0
     button.absolute.top-0.right-0.py-2.text-white.text-lg.px-4(@click="isClose = true")
