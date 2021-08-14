@@ -34,7 +34,7 @@ export default Vue.extend({
       const y = (e.clientY - rect.top) * ratio
       const xPer = Math.round(x / nW * 100 * 100) / 100
       const yPer = Math.round(y / nH * 100 * 100) / 100
-      console.log('x%: ' + (xPer) + '% y%:' + (yPer))
+      console.log('x: ' + xPer + ', y: ' + yPer)
       this.isHinting = true
       setTimeout(() => {
         this.isHinting = false

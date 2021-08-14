@@ -7,27 +7,14 @@
 import Vue from 'vue'
 import InteractiveApp from '~/components/InteractiveApp.vue'
 
+import interactiveData from '~/assets/interactive-data.js'
+
 export default Vue.extend({
   components: {
     InteractiveApp
   },
   data: () => ({
-    interactiveDataset: [
-      {
-        image: '/ia/test-01.png',
-        description: '',
-        points: [
-          { x: 25, y: 50, size: 24 }
-        ]
-      },
-      {
-        image: '/ia/test-02.png',
-        description: '',
-        points: [
-          { x: 50, y: 40, size: 36 }
-        ]
-      }
-    ]
+    interactiveDataset: interactiveData.test
   }),
   methods: {
     onDone () {
