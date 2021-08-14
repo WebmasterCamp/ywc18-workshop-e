@@ -5,12 +5,12 @@ div
       SearchBar
     .grid.grid-cols-3
       .col-span-2
-        Content(to="/content/zoom" title="วิธีใช้ Zoom Meeting สำหรับประชุมงานอย่างมืออาชีพ" )
+        Content(to="/content/zoom" title="ใช้ Zoom ยังไง" describe="คู่มือขั้นตอนการใช้ Zoom ในการประชุม พร้อมคลิปเสียงอธิบายเข้าใจง่าย" )
       div
         .mb-4
-          Content(to="/content/image-text" title="สอนใส่ข้อความในรูปภาพ \“สวัสดีวันจันทร์\”")
+          Content(title="Microsoft Teams" imgsrc="/meets.png" describe="คู่มือขั้นตอนการใช้ Microsoft Teams ในการประชุมและทำงานออนไลน์พร้อมคลิปเสียงอธิบายเข้าใจง่าย")
         div
-          Content(title="ทำธุรกรรมออนไลน์ยังไง")
+          Content(title="สอนทำสวัสดีวันจันทร์" imgsrc="/monday.png" describe="คู่มือขั้นตอนการใช้ Skype ในการประชุมงานและสื่อสารกันอย่างเห็นหน้าพร้อมคลิปเสียงอธิบายเข้าใจง่าย" to="/content/image-text")
     hr.text-3xl.m-2.my-8
   .bg-gray-100
     .max-w-container.mx-auto.w-full
@@ -19,21 +19,21 @@ div
           .w-16.mr-4: img(src="@/assets/google.png")
           .text-3xl.text-center Google
         div
-          Content(title="ใช้ Google ยังไง")
+          Content(title="Google docs" imgsrc="/docs.jpg" describe="คู่มือขั้นตอนการใช้ Google docs ในการเขียนรายงาน พร้อมคลิปเสียงอธิบายเข้าใจง่าย")
         div
-          Content(title="ใช้ Google ยังไง")
+          Content(title="Google Slide" imgsrc="/slide.jpg" describe="คู่มือขั้นตอนการใช้ Slide ในการทำสไลด์นำเสนอผลงาน พร้อมคลิปเสียงอธิบายเข้าใจง่าย")
   .max-w-container.mx-auto.w-full
     hr.text-3xl.m-2.my-8
   .bg-gray-100
     .max-w-container.mx-auto.w-full
       .grid.grid-cols-3.m-2.py-6
         .flex.items-center.justify-center
-          .w-16.mr-4: img(src="@/assets/zoom.png")
-          .text-3xl.text-center Zoom
+          //- .w-16.mr-4: img(src="@/assets/zoom.png")
+          .text-3xl.text-center รวมแอปสื่อสารตามเทรนด์ลูกๆ
         div
-          Content(title="ใช้ Zoom ยังไง")
+          Content(title="Facebook" imgsrc="/facebook.jpeg" describe="คู่มือสอนใช้และเล่น Facebook เบื้องต้นพร้อมคลิปเสียงประกอบการสอนเข้าใจง่าย ใช้งานเป็นทันทีหลังเรียน")
         div
-          Content(title="ใช้ Zoom ยังไง")
+          Content(title="LINE"  imgsrc="/line.png" describe="คู่มือสอนใช้ LINE เบื้องต้นในการสื่อสารพร้อมคลิปเสียงประกอบการสอนเข้าใจง่าย ใช้งานเป็นทันทีหลังเรียน")
   .relative.inset-0.w-full(style="background: #080975;")
     .relative.inset-0.flex
       .flex-1
@@ -53,12 +53,14 @@ import Vue from 'vue'
 import SearchBar from '~/components/SearchBar.vue'
 import CTAContact from '~/components/CTAContact.vue'
 import Content from '~/components/Content.vue'
+import Content2 from '~/components/Content2.vue'
 
 export default Vue.extend({
   components: {
     SearchBar,
     CTAContact,
-    Content
+    Content,
+    Content2
   }
 })
 </script>
