@@ -18,7 +18,7 @@ export default Vue.extend({
   }),
   methods: {
     onDone () {
-      this.$router.push('/content/zoom')
+      this.$router.push('/interactive-end')
     }
   }
 })

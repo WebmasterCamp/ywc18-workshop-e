@@ -19,7 +19,7 @@ div
           .w-16.mr-4: img(src="@/assets/google.png")
           .text-3xl.text-center Google
         div
-          Content(title="Google docs" imgsrc="/docs.jpg" describe="คู่มือขั้นตอนการใช้ Google docs ในการเขียนรายงาน พร้อมคลิปเสียงอธิบายเข้าใจง่าย")
+          Content(title="Google Docs" imgsrc="/docs.jpg" describe="คู่มือขั้นตอนการใช้ Google Docs ในการเขียนรายงาน พร้อมคลิปเสียงอธิบายเข้าใจง่าย")
         div
           Content(title="Google Slide" imgsrc="/slide.jpg" describe="คู่มือขั้นตอนการใช้ Slide ในการทำสไลด์นำเสนอผลงาน พร้อมคลิปเสียงอธิบายเข้าใจง่าย")
   .max-w-container.mx-auto.w-full
@@ -29,7 +29,7 @@ div
       .grid.grid-cols-3.m-2.py-6
         .flex.items-center.justify-center
           //- .w-16.mr-4: img(src="@/assets/zoom.png")
-          .text-3xl.text-center รวมแอปสื่อสารตามเทรนด์ลูกๆ
+          .px-4.text-xl.font-semibold.text-center รวมแอปสื่อสารตามเทรนด์ลูกๆ
         div
           Content(title="Facebook" imgsrc="/facebook.jpeg" describe="คู่มือสอนใช้และเล่น Facebook เบื้องต้นพร้อมคลิปเสียงประกอบการสอนเข้าใจง่าย ใช้งานเป็นทันทีหลังเรียน")
         div
