@@ -1,0 +1,21 @@
+<template lang="pug">
+    .container.max-w-container.mx-auto.w-full.pb-12
+        #TITLE.mt-5
+            .text-4xl วิธีใช้ Zoom Meeting สำหรับประชุมงานอย่างมืออาชีพ
+            p เผยแพร่ 14 ส.ค. 2564
+            //- .grid.grid-cols-2.gap-4
+            //-     p ส่งต่อให้เพื่อนของคุณ
+        hr.m-2
+        #WHATIS.mt-5
+            .container.max-w-container.mx-auto.w-full.pb-12.p-5.bg-red-700
+                .text-4xl Zoom คืออะไร ?
+                .text-2xl โปรแกรมซูม (Zoom Meeting) เป็นเครื่องมือพูดคุยผ่านวิดีโอ ส่งภาพและเสียง ให้แก่ผู้ร่วมประชุม ประกอบด้วย ฟังก์ชันที่ใช้งานง่าย เลือกเปลี่ยนภาพพื้นหลัง เพื่อพูดคุยให้เข้ากับโอกาสได้ตามความเหมาะสม รวมถึงใช้เรียนออนไลน์ได้ไม่สะดุด วิธีการเข้าใช้งาน Zoom Meeting ทำได้ง่าย ทั้งจากในมือถือ และคอมพิวเตอร์
+        #CONTENT.mt-5
+            .text-4xl ใช้ Zoom บน Desktop
+            .text-2xl 1. เปิด Google Chrome และเข้าลิงก์ Zoom.us
+            img.mb-4(src="~/assets/test.png").p-5
+            .text-2xl 2. คลิกที่ “Sign In” เพื่อสมัครสมาชิกก่อนเข้าใช้งาน หรือกด “Join” เพื่อเข้าใช้งานครั้งเดียว โดยไม่ต้องสมัครสมาชิก
+            img.mb-4(src="~/assets/test.png").p-5
+            .text-2xl 3. คลิกที่ “Sign In” เพื่อสมัครสมาชิกก่อนเข้าใช้งาน หรือกด “Join” เพื่อเข้าใช้งานครั้งเดียว โดยไม่ต้องสมัครสมาชิก
+            img.mb-4(src="~/assets/test.png").p-5
+</template>

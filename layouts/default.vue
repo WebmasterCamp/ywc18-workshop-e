@@ -8,11 +8,10 @@
             .h-10.flex.items-center.px-2.relative.cursor-default
               nuxt-link.block.text-lg(class="hover:opacity-75" to="/" )
                 .flex
-                  //- .text-3xl Key Tech
                   .w-12: Logo
           .flex-1
           li.h-10.flex.items-center
-            nuxt-link.block.text-lg.mx-4(class="hover:opacity-75" to="/lesson/work" )
+            nuxt-link.block.text-lg.mx-4(class="hover:opacity-75" to="/" )
               .text-xl บทเรียน
             nuxt-link.block.text-lg.mx-4(class="hover:opacity-75" to="/" )
               .text-xl สำหรับธุรกิจ
