@@ -1,7 +1,9 @@
 <template lang="pug">
 .interactive-app
   template(v-for="(step, i) in dataset")
-    ClickableCanvas(v-if="i === currentStep" :img="step.image" :points="step.points" @correct="progressStep")
+    template(v-if="i === currentStep")
+      .text-center.text-xl.font-semibold.mt-4.mb-4 {{ step.description }}
+      .flex.items-center.mx-auto(style="max-width: 640px;"): ClickableCanvas(:img="step.image" :points="step.points" @correct="progressStep")
 </template>
 
 <script>
