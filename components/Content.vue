@@ -2,7 +2,7 @@
 nuxt-link.block.p-4.content(:to="to" class="hover:shadow-lg")
   img.mb-4(src="~/assets/zoom-logo.png")
   .text-3xl {{ title }}
-  .text-xl {{ describe }}
+  .text-xl(v-if="!isSmall") {{ describe }}
 </template>
 
 <script>
@@ -13,7 +13,8 @@ export default Vue.extend({
     to: { type: String, default: '/' },
     imgsrc: { type: String, default: '~/assets/zoom-logo.png' },
     title: { type: String, default: 'lorem ipsum' },
-    describe: { type: String, default: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.' }
+    describe: { type: String, default: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.' },
+    isSmall: { type: Boolean }
   }
 })
 </script>
