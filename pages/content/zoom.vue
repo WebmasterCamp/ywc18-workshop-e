@@ -1,4 +1,5 @@
 <template lang="pug">
+div
     .container.max-w-container.mx-auto.w-full.pb-12.px-4
         #TITLE.mt-5
             .text-4xl วิธีใช้ Zoom Meeting สำหรับประชุมงานอย่างมืออาชีพ
@@ -44,8 +45,34 @@
             .px-16: img.mb-4(src="~/assets/zoom-gif/9.gif").p-5
             .text-2xl.text-center.text-gray-900 ติดปัญหาการใช้งาน
             .flex.items-center.justify-center.mt-8
-                nuxt-link.h-10.px-6.flex.items-center.text-gray-900.bg-gray-extend.text-2xl.rounded.leading-none(to="/interactive"
+                nuxt-link.h-10.px-6.flex.items-center.text-gray-900.bg-gray-extend.text-2xl.rounded.leading-none(to="#"
                     class="hover:shadow-lg hover:bg-white-400"
                     ) โทรหาฝ่ายบริการ
-
+    .relative.inset-0.w-full(style="background: #080975;")
+        .relative.inset-0.flex
+          .flex-1
+          img(src="~/assets/cta-first-page.jpg")
+        .absolute.inset-0.max-w-container.w-full.mx-auto
+          .flex.flex-col.text-white.h-full.p-8
+            .font-semibold.text-xl KeyTech ช่วยได้
+            p.mt-2 ติดปัญหาการใช้งาน ไม่เข้าใจโปรแกรม<br />โทรติดต่อฝ่ายบริการของเรา คอยดูแลคุณตลอด 24 ชม. ถามได้ทุกคำถาม
+            .flex-1
+            .flex
+              .w-8.text-lg.text-white: font-awesome-icon(:icon="['fas', 'phone']")
+              .flex-1 โทร 080-0000000
 </template>
+
+<script>
+import Vue from 'vue'
+import SearchBar from '~/components/SearchBar.vue'
+import CTAContact from '~/components/CTAContact.vue'
+import Content from '~/components/Content.vue'
+
+export default Vue.extend({
+  components: {
+    SearchBar,
+    CTAContact,
+    Content
+  }
+})
+</script>
